@@ -8,6 +8,7 @@ let connection;
 
 const handleUserInput = function(data) {
 
+  conn.write("Say: Hello, I'm a ssssssnake!!!");
   switch (data) {
     case "w":
       conn.write("Move: up");
